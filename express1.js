@@ -12,7 +12,9 @@ app.get('/View',function(req,res){
 app.get('/more',function(req,res){
     res.send('welcome tomore Page');
 })
-
+app.get('/more1',function(req,res){
+    res.send('welcome tomore Page');
+})
 app.get('/Contact',function(req,res){
     res.send('welcome to Contact Page');
 })
